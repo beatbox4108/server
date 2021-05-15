@@ -1,8 +1,8 @@
 function load_header(){
-    fetch("https://beatbox4108.tk/media/temprate/footer.temprate").then((val)=>{
+    fetch("https://www.beatbox4108.tk/media/temprate/footer.temprate").then((val)=>{
         document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML=val.text
     }).catch(()=>{
-        fetch("http://beatbox4108.tk/media/temprate/footer.temprate").then((val)=>{
+        fetch("http://www.beatbox4108.tk/media/temprate/footer.temprate").then((val)=>{
             document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML=val.text
         }).catch(()=>{
             document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML="<div class=\"footer-error\">Sorry, loading failed. Please <a href=\"#\",onclick=\"load_header()\">reload</a></div>"
