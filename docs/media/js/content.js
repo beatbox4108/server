@@ -14,6 +14,8 @@ function load_header(){
                 <td><a href="http://wtool.beatbox4108.tk/tageraser.html">HTMLTagEraser</a></td>
                 <td><a href="http://wtool.beatbox4108.tk/tageraser.html">Microwave wattage transducer</a></td>
                 <td><a href="http://wtool.beatbox4108.tk/textedit.html">Memo</a></td>
+            </tr>
+            <tr>
                 <td><a href="http://beatbox4108.github.io/bwctc/index.html"><s>World Clock</s></a></td>
             </tr>
         </table>
