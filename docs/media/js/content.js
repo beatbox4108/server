@@ -9,8 +9,13 @@ function load_header(){
             <tr><th colspan="2">beatbox4108</th></tr>
             <tr><td><a href="http://www.beatbox4108.tk/index.html">TopPage</a></td><td><a href="http://wtool.beatbox4108.tk/index.html">WebToolbox</a></td></tr>
             <tr><th colspan="2">WebToolbox</th></tr>
-            <tr><td colspan="2"><s><a href="http://wtool.beatbox4108.tk/index.html">TopPage</a></s></td></tr>
-            <tr><td><a href="http://wtool.beatbox4108.tk/tageraser.html">HTMLTagEraser</a></td><td><a href="http://beatbox4108.github.io/bwctc/index.html">World Clock</a></td></tr>
+            <tr><td colspan="2"><a href="http://wtool.beatbox4108.tk/index.html">TopPage</a></td></tr>
+            <tr>
+                <td><a href="http://wtool.beatbox4108.tk/tageraser.html">HTMLTagEraser</a></td>
+                <td><a href="http://wtool.beatbox4108.tk/tageraser.html">Microwave wattage transducer</a></td>
+                <td><a href="http://wtool.beatbox4108.tk/textedit.html">Memo</a></td>
+                <td><a href="http://beatbox4108.github.io/bwctc/index.html"><s>World Clock</s></a></td>
+            </tr>
         </table>
     </section>
     <section>
