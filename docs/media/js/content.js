@@ -1,9 +1,23 @@
 function load_header(){
-    fetch("//www.beatbox4108.tk/media/temprate/footer.temprate", {mode: 'cors',credentials: 'include'}).then((val)=>val.text().replace("$url",location.href)).then((val)=>{
-        document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML=val
-    }).catch(()=>{
-        document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML="<div class=\"footer-error\">Sorry, loading failed. Please <a href=\"#\",onclick=\"load_header()\">reload</a></div>"
-    });
+    document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML=`
+<section>
+    <section>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=$url&width=92&layout=box_count&action=like&size=small&share=true&height=65&appId" width="92" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </section>
+    <section>
+        <table style="margin: auto;">
+            <tr><th colspan="2">beatbox4108</th></tr>
+            <tr><td><a href="http://www.beatbox4108.tk/index.html">TopPage</a></td><td><a href="http://wtool.beatbox4108.tk/index.html">WebToolbox</a></td></tr>
+            <tr><th colspan="2">WebToolbox</th></tr>
+            <tr><td colspan="2"><s><a href="http://wtool.beatbox4108.tk/index.html">TopPage</a></s></td></tr>
+            <tr><td><a href="http://wtool.beatbox4108.tk/tageraser.html">HTMLTagEraser</a></td><td><a href="http://beatbox4108.github.io/bwctc/index.html">World Clock</a></td></tr>
+        </table>
+    </section>
+    <section>
+        <small>&copy;2021 beatbox4108 All rights reserved.</small>
+    </section>
+</section>
+`
 }
 
 document.addEventListener("DOMContentLoaded",()=>{
