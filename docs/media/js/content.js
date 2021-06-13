@@ -2,7 +2,7 @@ function load_header(){
     document.querySelector(".content-js[data-content-type=\"footer\"]").innerHTML=`
 <section>
     <section>
-        <iframe src="https://www.facebook.com/plugins/like.php?href=$url&width=92&layout=box_count&action=like&size=small&share=true&height=65&appId" width="92" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=${location.href}&width=92&layout=box_count&action=like&size=small&share=true&height=65&appId" width="92" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </section>
     <section>
         <table style="margin: auto;">
