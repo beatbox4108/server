@@ -1,6 +1,17 @@
 <section>
     <section>
-        <iframe src="https://www.facebook.com/plugins/like.php?href=$url&width=92&layout=box_count&action=like&size=small&share=true&height=65&appId" width="92" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="ninja_onebutton">
+            <script type="text/javascript">
+            //<![CDATA[
+            (function(d){
+            if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_f3e8c789623f68cca067cd2d06a1d48c)=='undefined'){
+                document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/f3e8c789623f68cca067cd2d06a1d48c'><\/sc"+"ript>");
+            }else{
+                window.NINJA_CO_JP_ONETAG_BUTTON_f3e8c789623f68cca067cd2d06a1d48c.ONETAGButton_Load();}
+            })(document);
+            //]]>
+            </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+        </div>            
     </section>
     <section>
         <table style="margin: auto;">
