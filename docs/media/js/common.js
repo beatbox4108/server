@@ -1,6 +1,6 @@
 //header
 const header=document.createElement("header")
-document.body.insertBefore(header)
+document.body.insertAdjacentElement("beforeend",header)
 header.innerHTML=`<header>
 <div class="header title">beatbox4108.tk</div>
 <nav class="header navigation">
