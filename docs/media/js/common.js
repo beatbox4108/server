@@ -1,19 +1,24 @@
 //header
 const header=document.createElement("header")
+header.classList.add("header","nav")
 document.body.insertAdjacentElement("beforeend",header)
-header.innerHTML=`<header>
-<div class="header title">beatbox4108.tk</div>
-<nav class="header navigation">
-<div class"header navigation-item" data-url="/index.html">Top</div>
-<div class"header navigation-item" data-url="/about.html">About</div>
-<div class"header navigation-item" data-url="/services/">Services</div>
-</nav>
-</header>`
+header.innerHTML=`<a class="header title item" data-order="1" href="/index.html">beatbox4108.tk</div>\
+<a class="header navigation-item item" href="/index.html" data-order="2">Top</div>
+<a class="header navigation-item item" href="/about.html" data-order="3">About</div>
+<a class="header navigation-item item" href="/services/" data-order="4">Services</div>`
 const navigation=document.createElement("nav")
-document.body.insertBefore(navigation)
-navigation.innerHTML=`<iframe href="/nav.html" class="flatview">Sorry,I couldn't open navigation.<br><a href="/nav.html" target="_blank">View in new tab</a>?</iframe>`
+document.body.insertAdjacentElement("beforeend",navigation)
+navigation.innerHTML=`
+<a href="//www.beatbox4108.tk/index.html">Home</a><br>
+<a href="//www.beatbox4108.tk/about.html">About</a><br>
+<details open>
+    <summary>Webtoolbox</summary>
+    <a href="//wtool.beatbox4108.tk/index.html">Top</a><br>
+    <a href="//wtool.beatbox4108.tk/textedit.html">Memo</a><br>
+    <a href="//wtool.beatbox4108.tk/tageraser.html">HTML Tag Eraser</a><hr>
+    <a href="//wtool.beatbox4108.tk/index.html">see all tool\s</a>
+</details>`
 const footer=document.createElement("footer")
-document.body.insertBefore(footer)
+document.body.insertAdjacentElement("beforeend",footer)
 footer.innerHTML=`
-<iframe href="/nav.html" class="flatview">Sorry,I couldn't open footer.<br><a href="/footer.html" target="_blank">View in new tab</a>?</iframe>
 `
