@@ -44,3 +44,11 @@ body>nav{
     grid-column: 1/ span 1;
     padding: 10px;
 }
+abbr{
+    color: aqua;
+}
+abbr::after{
+    content: "?";
+    vertical-align: super;
+    color: lime;
+}
